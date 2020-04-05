@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/el1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="suda"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+
+    <EditText
+        android:id="@+id/el2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/sumButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summa"
+
+        />
+    <TextView
+        android:id="@+id/sumText"
+        android:layout_width="76dp"
+        android:layout_height="43dp"
+        android:text="TextView"
+        />
+
+
+
+
+</LinearLayout>
